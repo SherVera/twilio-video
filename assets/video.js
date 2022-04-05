@@ -22,6 +22,7 @@ window.addEventListener("load", () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        'api-key': 'LJFQOax8XhbRTOyha3d6'
       },
       body: JSON.stringify({ identity: identity, room: roomName }),
     })
